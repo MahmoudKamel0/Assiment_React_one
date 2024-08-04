@@ -1,0 +1,44 @@
+#Contact {
+       min-height: calc(100vh - 125px);
+       padding: 55px 0;
+       background: var(--light-bg);
+}
+
+       #Contact h1 {
+              font-size: 4rem;
+              font-weight: 700;
+              color: var(--light-color);
+              color: var(--primary-color);
+       }
+
+       #Contact .icon {
+              margin-top: 5px;
+       }
+
+       #Contact .icon::before , #Contact .icon::after {
+              display: inline-block;
+              content: "";
+              margin: 0px 15px 3px;
+              height: 4px;
+              width: 80px;
+              background: var(--primary-bg);
+       }
+
+       #Contact .icon i {
+              color: var(--primary-color);
+       }
+
+       #Contact .form input {
+              padding: 10px 15px;
+              width: 640px;
+              margin-top: 30px;
+              border: none;
+              border-bottom: 1px solid rgba(26, 188, 156, 0.9);
+              outline: none;
+       }
+
+       #Contact .form button {
+              padding: 10px;
+              background: #1abc9c;
+              font-size: 1.6rem;
+       }

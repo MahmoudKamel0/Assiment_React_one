@@ -1,0 +1,34 @@
+#Home {
+       height: calc(100vh - 125px);
+       padding: 0px 15%;
+       background: var(--main-bg);
+}
+
+       #Home h1 {
+              font-size: 4rem;
+              font-weight: 700;
+              color: var(--light-color);
+       }
+
+       #Home .icon {
+              margin-top: 5px;
+       }
+
+       #Home .icon::before , #Home .icon::after {
+              display: inline-block;
+              content: "";
+              margin: 0px 15px 3px;
+              height: 4px;
+              width: 80px;
+              background: var(--light-bg);
+       }
+
+       #Home .icon i {
+              color: var(--light-color);
+       }
+
+       #Home p {
+              margin-top: 15px;
+              padding-right: 10px !important;
+              color: var(--light-color);
+       }

@@ -1,0 +1,41 @@
+header {
+       padding: 0px 9px;
+       top: 0;
+       background: var(--primary-bg);
+       z-index: 10;
+}
+
+       .navigation {
+              padding: 30px 0px;
+              transition: 0.5s;
+       }
+       .navigation a.logo {
+              font-weight: bolder;
+              color: var(--light-color);
+              font-size: 30px;
+              text-transform: uppercase;
+       }
+       .navigation menu li {
+              margin: 0px 20px;
+              font-size: 16px;
+              font-weight: 700;
+              text-transform: uppercase;
+       }
+       .navigation menu li a {
+              display: inline-block;
+              color: var(--light-color) !important;
+              padding: 10px;
+              border-radius: 7px;
+       }
+       .navigation menu li a:hover {
+              color: var(--light-color);
+       }
+       .navigation menu li .active {
+              background: var(--main-bg);
+       }
+
+
+       /* when scroll navbar */
+       .navigation.scrolled {
+              padding: 20px 0px;
+       }

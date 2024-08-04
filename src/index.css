@@ -1,0 +1,28 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+
+    --primary-bg   : #2c3e50;
+    --primary-color: var(--primary-bg);
+  
+    --main-bg      :#1abc9c;
+    --main-color   :var(--main-bg);
+  
+    --light-bg     : #fff;
+    --light-color  : var(--light-bg);
+  
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+body * {
+    font-size: 1.6rem;
+}
+
+section {
+    margin-top: 104px;
+}
